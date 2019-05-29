@@ -31,7 +31,7 @@ class LostForm extends Component {
 
     render() {
         return (
-            <div className="lost">
+            <div className="lost container">
                 
                 <input value={this.state.direccion} onChange={this.handleChange} 
                     name="direccion" type="text" placeholder="Direccion" className="inputLost" />

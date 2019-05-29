@@ -30,7 +30,7 @@ export class FoundList extends Component {
 
     render() {
         console.log(this.state.listFound);
-        return (<div><h4>Animales Encontrados</h4>
+        return (<div className="container"><h4>Animales Encontrados</h4>
             <div className="grid-container">
                 {this.state.listFound && this.state.listFound.map((foundAnimal, index) =>
                     <div key={index} className="grid-item">

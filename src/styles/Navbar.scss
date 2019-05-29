@@ -12,6 +12,9 @@
   display: inline-block;
 }
 .logo-container{
+  img{
+    content:url('https://avatars3.githubusercontent.com/u/44605526?s=200&v=4');
+  }
   float: left;
   text-align: center;
   list-style-type: none;
@@ -56,7 +59,6 @@ nav {
   ul {
     text-align: center;
     list-style-type: none;
-    list-style-type: none;
     margin: 0;
     padding: 15px;
     li {
@@ -68,9 +70,17 @@ nav {
         padding: 14px;
         &:hover {
           background-color: #292929;
+          color:#62dabb;
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .content {
+    margin-top: 90px;
+    margin-left: 20%;
   }
 }
 

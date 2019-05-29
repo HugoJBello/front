@@ -6,7 +6,7 @@ class LostList extends Component {
         this.state = {}
     }
     render() {
-        return (<div>LostList</div>);
+        return (<div className="container">LostList</div>);
     }
 }
 

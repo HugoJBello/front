@@ -6,7 +6,7 @@ class FoundCard extends Component {
         this.state = { id: props.match.params.id };
     }
     render() {
-        return (<div>FoundView {this.state.id}</div>);
+        return (<div className="container">FoundView {this.state.id}</div>);
     }
 }
 

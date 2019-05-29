@@ -1,0 +1,31 @@
+.img-header {
+  /* The image used */
+  width: 100%;
+  text-align:center;
+  background-image: url("https://media-ncd.cmgdigital.com/photo/2019/03/21/WATCH__2018_List_of_Most_Popular_Dog_Bre_0_14800423_ver1.0_1280_720.jpg");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.search-bar{
+  border-radius: 3px;
+  width: 600px;
+  height: 70px;
+  border: 1px solid;
+  border-color: #bababa;
+  color: #636363;
+  background-color: white;
+}
+
+.search-bar-container{
+  padding-top:200px;
+  margin: 0 auto;
+}

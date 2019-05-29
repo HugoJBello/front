@@ -6,7 +6,7 @@ class LostCard extends Component {
         this.state = { id: props.match.params.id };
     }
     render() {
-        return (<div>LostView {this.state.id}</div>);
+        return (<div className="container">LostView {this.state.id}</div>);
     }
 }
 

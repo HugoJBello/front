@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "../styles/Home.scss";
 
 class Home extends Component {
     constructor(props) {
@@ -6,7 +7,14 @@ class Home extends Component {
         this.state = {}
     }
     render() {
-        return (<div>Home</div>);
+        return (<div>
+            <div className="img-header">
+                <div className="search-bar-container">
+                    <input type="text" className="search-bar"></input>
+                </div>
+            </div>
+            <div className="subheader"></div>
+        </div>);
     }
 }
 

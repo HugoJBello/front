@@ -6,7 +6,7 @@ class FoundForm extends Component {
         this.state = {}
     }
     render() {
-        return (<div>FoundForm</div>);
+        return (<div className="container">FoundForm</div>);
     }
 }
 

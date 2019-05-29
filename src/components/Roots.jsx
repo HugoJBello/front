@@ -17,7 +17,8 @@ class Roots extends Component {
     }
     render() {
         return (
-            <div className="container">
+            <div>
+                <Route exact path="/" component={Home} />
                 <Route path="/home" component={Home} />
                 <Route path="/perdido/id=:id" component={LostCard} />
                 <Route path="/nuevo_perdido" component={LostForm} />

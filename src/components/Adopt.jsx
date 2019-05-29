@@ -6,7 +6,7 @@ class LostCard extends Component {
         this.state = {  };
     }
     render() {
-        return (<div>LostView</div>);
+        return (<div className="container">LostView</div>);
     }
 }
 
