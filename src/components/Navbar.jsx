@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 
 import "../styles/Navbar.scss";
+import {FaSearch} from "react-icons/fa/index";
 class Navbar extends Component {
     constructor(props) {
         super(props);
@@ -18,7 +19,10 @@ class Navbar extends Component {
                 <li><Link to="/perdidos">PERDIDOS</Link></li>
                 <li><Link to="/encontrados">ENCONTRADOS</Link></li>
                 <li><Link to="/adopta">ADOPTA</Link></li>
-                <input type="text" className="search-bar-top"></input>
+                <span className="search-bar-top-container">
+                    <input type="text" className="search-bar-top"></input>
+                    <FaSearch className="search-icon"></FaSearch>
+                </span>
             </ul>
         </nav>);
     }
