@@ -11,16 +11,38 @@
   width: 100%;
   display: inline-block;
 }
+.logo-container{
+  float: left;
+  text-align: center;
+  list-style-type: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+}
 
-/** HEADER */
+.logo{
+  max-width: 49px;
+}
+
+.menu-entries{
+  padding:10px;
+  float:right;
+}
+
+.search-bar-top{
+  border-radius: 10px;
+  border: 1px solid;
+  color: #636363;
+}
 
 /** NAVIGATION BAR */
 nav {
+  overflow:auto;
   z-index: 100;
-  overflow: hidden;
   background-color: #383838;
   position: fixed;
   top: 0;
+  color:aqua;
   width: 100%;
   ul {
     text-align: center;
@@ -29,6 +51,7 @@ nav {
     margin: 0;
     padding: 15px;
     li {
+      color:aqua;
       display: inline;
       font-size: 17px;
       a {

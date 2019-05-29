@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
-import {postFichaPerdidos} from '../services/services';
+import {saveAnimal} from './services/animalRegistryService';
 
 class LostForm extends Component {
     constructor(props) {
@@ -23,7 +23,7 @@ class LostForm extends Component {
     }
     handleClick = (e) => {
         e.preventDefault();
-        postFichaPerdidos(this.state)
+        saveAnimal(this.state)
           .then((res) => console.log(res))
           .catch((err) => console.log(err));
        

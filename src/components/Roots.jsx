@@ -8,6 +8,7 @@ import LostList from './LostList';
 import FoundCard from './FoundCard';
 import FoundForm from './FoundForm';
 import FoundList from './FoundList';
+import Adopt from './Adopt';
 
 class Roots extends Component {
     constructor(props) {
@@ -21,6 +22,7 @@ class Roots extends Component {
                 <Route path="/perdido/id=:id" component={LostCard} />
                 <Route path="/nuevo_perdido" component={LostForm} />
                 <Route path="/perdidos" component={LostList} />
+                <Route path="/adopta" component={Adopt} />
 
                 <Route path="/encontrado/id=:id" component={FoundCard} />
                 <Route path="/nuevo_encontrado" component={FoundForm} />

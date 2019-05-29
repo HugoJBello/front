@@ -9,14 +9,16 @@ class Navbar extends Component {
     }
     render() {
         return (<nav>
-            <ul>
-                <li><Link to="/home">Home</Link></li>
-                <li><Link to="/encontrados">encontrados</Link></li>
-                <li><Link to="/perdidos">perdidos</Link></li>
-                <li><Link to="/nuevo_encontrado">nuevo encontrado</Link></li>
-                <li><Link to="/nuevo_perdido">nuevo perdido</Link></li>
-                <li><a  id="logo">LOGO</a></li>
-                <a href="#" id="menu-icon"></a>
+            <a  id="logo-container">
+                <img className='logo' src="https://avatars3.githubusercontent.com/u/44605526?s=200&v=4">
+
+                </img>
+            </a>
+            <ul className='menu-entries'>
+                <li><Link to="/perdidos">PERDIDOS</Link></li>
+                <li><Link to="/encontrados">ENCONTRADOS</Link></li>
+                <li><Link to="/adopta">ADOPTA</Link></li>
+                <input type="text" className="search-bar-top"></input>
             </ul>
         </nav>);
     }
